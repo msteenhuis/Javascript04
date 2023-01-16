@@ -1,0 +1,16 @@
+Requirements:
+
+-New logo for Shop Lift Up, Inc.
+
+-List of all of the groceries the user plans to buy.
+
+-Way for the user to add new groceries to the list.
+
+-Way for the user to organize the list by moving groceries up and down. An up and a down arrow will move the item up and down on the list.
+
+-Text box into which the user can enter a number. The number will
+represent one of the items on the list. 
+
+-Button or icon so that an item can be deleted from the list.
+
+-Intuitive and attractive.

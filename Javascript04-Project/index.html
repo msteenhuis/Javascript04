@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Project 4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body onload="Initialize();">
+  <div id="main">
+    <img src="Logo.png" alt="Shop Lift Up Logo" height="10%">
+    <form id="add">
+      <label for="product">Product:</label><br>
+      <input type="text" id="product" name="product"><br>
+      <label for="qty">Quantity:</label><br>
+      <input type="number" id="qty" name="qty"><br><br>
+    </form>
+    <button onclick="checkData();">Add!</button>
+    
+    <form id="change">
+      <label for="number">Product Number:</label><br>
+      <input type="number" id="number" name="number"><br>
+    </form>
+    <div id="ListButtons">
+      <button onclick = "moveUp();">↑</button>
+      <button onclick = "moveDown();">↓</button>
+      <button onclick = "addQty();">+</button>
+      <button onclick = "deleteItm();">x</button>
+    </div>
+
+    <div id="groceryList">
+      <h1>Product List</h1>
+      <p id="list"></p>
+    </div>
+  </div>
+</body>
+
+</html>
